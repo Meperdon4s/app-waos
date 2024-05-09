@@ -1,0 +1,95 @@
+
+.form_container{
+    width: 30%;
+}
+
+@media screen and(max-width:1000px){
+    .form_container{
+        width: 45%;
+    }
+}
+
+@media screen and(max-width:700px){
+    .form_container{
+        width: 65%;
+    }
+}
+
+.btn-green {
+    background-color: green;
+    color: white; /* Cambia el color del texto a blanco para que sea visible en el fondo verde */
+  }
+  
+  .btn-blue {
+    background-color: blue;
+    color: white; 
+  }
+
+.img-fluid {
+    border-radius: 20px; /* Esquinas redondeadas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+    position: relative; /* Establece la posición relativa para que podamos posicionar el degradado */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de agrandamiento */
+  }
+  
+  /* Estilo para la superposición de degradado */
+  .img-fluid::before {
+    content: ""; /* Necesario para generar el pseudo-elemento */
+    position: absolute; /* Posición absoluta para superponer */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(42,72,152);
+    background: linear-gradient(90deg, rgba(42,72,152,1) 0%, rgba(41,128,203,1) 49%, rgba(0,255,252,1) 100%); /* Degradado desde transparente a semi-transparente */
+    pointer-events: none; /* No interfiere con los eventos del ratón */
+    transition: opacity 0.3s ease; /* Transición suave para el efecto de opacidad */
+    opacity: 0; /* Inicialmente oculto */
+  }
+  
+  /* Estilo para el hover */
+  .img-fluid:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
+  }
+  
+  .img-fluid:hover::before {
+    opacity: 1; /* Muestra la superposición degradada cuando el ratón está sobre la imagen */
+  }
+  
+/* Estilo para la imagen */
+.img-fluid {
+    border-radius: 20px; /* Esquinas redondeadas */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+    position: relative; /* Establece la posición relativa para que podamos posicionar el degradado */
+    transition: transform 0.3s ease; /* Transición suave para el efecto de agrandamiento */
+  }
+  
+  /* Estilo para la superposición de degradado */
+  .img-fluid::before {
+    content: ""; /* Necesario para generar el pseudo-elemento */
+    position: absolute; /* Posición absoluta para superponer */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(42,72,152);
+    background: linear-gradient(90deg, rgba(42,72,152,1) 0%, rgba(41,128,203,1) 49%, rgba(0,255,252,1) 100%); /* Degradado desde transparente a semi-transparente */
+    ; /* Degradado desde transparente a semi-transparente */
+    pointer-events: none; /* No interfiere con los eventos del ratón */
+    transition: opacity 0.3s ease; /* Transición suave para el efecto de opacidad */
+    opacity: 0; /* Inicialmente oculto */
+  }
+  
+  /* Estilo para el hover */
+  .img-fluid:hover {
+    transform: scale(1.1); /* Escala la imagen al 110% del tamaño original */
+  }
+  
+  .img-fluid:hover::before {
+    opacity: 1; /* Muestra la superposición degradada cuando el ratón está sobre la imagen */
+  }
+
+.login{
+  background: rgb(42,72,152);
+background: linear-gradient(90deg, rgba(42,72,152,1) 0%, rgba(41,128,203,1) 49%, rgba(0,211,255,1) 100%);
+}

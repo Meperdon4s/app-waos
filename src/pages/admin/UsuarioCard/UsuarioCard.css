@@ -1,0 +1,94 @@
+
+.usuario-card {
+  background: linear-gradient(153deg, var(--bs-body-bg) 0%, rgba(255,253,255,0.5797721929310545) 98%, var(--bs-body-bg) 100%), rgb(135,135,135);
+  margin: 2px;
+  border-radius: 25px;
+  backdrop-filter: blur(22px);
+  color: #212529;
+}
+
+
+.usuario-info {
+  text-decoration: none;
+  color: inherit;
+}
+
+.usuario-info:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.usuario-card .btn {
+  cursor: pointer;
+}
+
+.usuario-card .btn-seguir {
+  background: linear-gradient(45deg, #ff7009 0%, #5dc5ff);
+}
+
+.usuario-card .btn-seguir:hover {
+  opacity: 0.8;
+}
+
+.usuario-card .btn-publicacion {
+  --bs-primary: rgba(10,10,10,0.2);
+  --bs-primary-rgb: 10,10,10;
+  backdrop-filter: hue-rotate(164deg);
+  font-weight: bold;
+  text-align: center;
+  background: radial-gradient(#c9c9c9, #afb7cc), #717171;
+  color: rgb(0,0,0);
+  border-right-color: var(--bs-orange);
+  border-bottom-color: var(--bs-orange);
+  box-shadow: 3px 3px 2px rgb(156,129,129);
+}
+
+.usuario-card .btn-publicacion:hover {
+  opacity: 0.8;
+}
+.usuario-card {
+  background: linear-gradient(153deg, var(--bs-body-bg) 0%, rgba(255,253,255,0.5797721929310545) 98%, var(--bs-body-bg) 100%), rgb(135,135,135);
+  margin: 2px;
+  border-radius: 25px;
+  backdrop-filter: blur(22px);
+  color: #212529;
+}
+
+.usuario-info {
+  text-decoration: none;
+  color: inherit;
+}
+
+.usuario-info:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.usuario-card .btn {
+  cursor: pointer;
+}
+
+.usuario-card .btn-seguir {
+  background: linear-gradient(45deg, #ff7009 0%, #5dc5ff);
+}
+
+.usuario-card .btn-seguir:hover {
+  opacity: 0.8;
+}
+
+.usuario-card .btn-publicacion {
+  --bs-primary: rgba(10,10,10,0.2);
+  --bs-primary-rgb: 10,10,10;
+  backdrop-filter: hue-rotate(164deg);
+  font-weight: bold;
+  text-align: center;
+  background: radial-gradient(#e0d4d4, #b0b6c7), #717171;
+  color: rgb(0,0,0);
+  border-right-color: var(--bs-orange);
+  border-bottom-color: var(--bs-orange);
+  box-shadow: 3px 3px 2px rgb(183, 148, 148);
+}
+
+.usuario-card .btn-publicacion:hover {
+  opacity: 0.8;
+}
