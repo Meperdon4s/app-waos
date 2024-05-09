@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import Axios from "../../../../services/Axios";
 import { Auth, User } from "../../../../api";
 
+//const authCtr = new Auth()
+const userCtr = new User()
+
 export function Registro() {
   const datosUsuario = {
     nombreusuario: "",
@@ -32,7 +35,8 @@ export function Registro() {
 
   const GuardarUsuario = async() => {
     try {
-      const response = await ArtCtr.subirArticulo(access, articulo)
+      console.log(usuarios)
+      const response = await userCtr.registro(usuarios)
       console.log(response);
       
 
